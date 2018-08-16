@@ -1,0 +1,184 @@
+/*****base styles*****/
+
+body {
+    font-family: 'montserrat', sans-serif;
+    color: #2b2b2b;
+    margin-left: 20px; 
+    }
+
+#introduction {
+    height: 200px;
+}
+
+/*****grid*****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px; 
+    float: left;  
+}
+
+.third-width {
+    width: 398px;
+    float: left;
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;  
+    height: 206px;
+    margin-bottom: 25px; 
+}
+/*****header*****/
+
+header {
+    height: 120px; 
+    color: #77a466;
+    float: left;
+    padding-bottom: 40px; 
+    padding-left: 150px;
+}
+
+header h1 {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-right: 110px; 
+    font-family: 'montserrat', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase; 
+    font-size: 30px; 
+    color: #77a466; 
+}
+
+header h1 span {
+    color: #2b2b2b;
+}
+
+nav {
+    float: right;
+    padding-right: 2px;
+    padding-left: 15px;
+    padding-top: 60px; 
+    padding-bottom: 100px; 
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 18px; 
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: #77a466; 
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold; 
+    text-decoration: none;
+}
+#hero-image {
+    width: 1200px; 
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466; 
+}
+
+#introduction h2 {
+    font-family: 'montserrat', sans-serif;
+    text-transform: uppercase; 
+    color: #77a466;
+    font-size: 18px; 
+    font-weight: 600; 
+    padding-top: 30px;
+}
+
+#introduction p {
+    font-family: 'montserrat', sans-serif; 
+    font-size: 16px; 
+    font-weight: normal;
+    padding-top: 25px;
+    padding-bottom: 40px; 
+}
+
+#todays-specials {
+    font-family: 'montserrat', sans-serif;
+    text-align: left; 
+    height: 190px;
+}
+
+#todays-specials h3 {
+    padding-top: 20px; 
+    text-transform: uppercase;
+    font-size: 12px; 
+    font-weight: bold;
+}
+
+#todays-specials p {
+    color: #77a466;
+    font-size: 16px; 
+    line-height: 30px; 
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 40px; 
+}
+
+#awesome-reviews {
+    font-family: 'montserrat', sans-serif; 
+    padding-left: 10px; 
+    border: 1px solid #dcdcdc;
+    height: 204px;
+    padding-top: 0; 
+}
+
+#awesome-reviews h3 {
+    padding-top: 20px; 
+    text-transform: uppercase; 
+    font-size: 12px; 
+    font-weight: bold; 
+    padding-left: 20px; 
+}
+
+#awesome-reviews p {
+    font-size: 16px; 
+    text-align: left; 
+    padding-right: 20px; 
+    padding-left: 20px; 
+}
+
+#contact-us {
+    font-family: 'montserrat', sans-serif; 
+    padding-left: 20px; 
+    height: 175px; 
+}
+
+#contact-us h3 {
+    padding-top: 20px; 
+    font-size: 12px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+}
+
+#contact-us p {
+    font-size: 16px; 
+    line-height: 20px;
+}
+
+footer {
+    padding-top: 20px;
+    padding: 150px; 
+    text-align: center; 
+}
+
+#powered h2 {
+    font-size: 16px; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    font-family: 'montserrat', sans-serif; 
+    text-align: center; 
+}
+
+#powered span {
+    color: #77a466;
+    font-family: 'dancing script', cursive; 
+    text-transform: lowercase; 
+    font-weight: normal; 
+}
