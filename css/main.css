@@ -4,10 +4,7 @@ body {
     font-family: 'montserrat', sans-serif;
     color: #2b2b2b;
     margin-left: 20px; 
-    }
-
-#introduction {
-    height: 200px;
+    min-width: 1250px;  
 }
 
 /*****grid*****/
@@ -24,23 +21,18 @@ body {
 
 .third-width {
     width: 398px;
-    float: left;
-    border-top: 1px solid #dcdcdc;
-    border-bottom: 1px solid #dcdcdc;  
-    height: 206px;
-    margin-bottom: 25px; 
+    float: left; 
 }
+
 /*****header*****/
 
-header {
+#header {
     height: 120px; 
     color: #77a466;
-    float: left;
     padding-bottom: 40px; 
-    padding-left: 150px;
 }
 
-header h1 {
+#header h1 {
     padding-top: 50px;
     padding-bottom: 100px;
     padding-right: 110px; 
@@ -51,11 +43,11 @@ header h1 {
     color: #77a466; 
 }
 
-header h1 span {
+#header h1 span {
     color: #2b2b2b;
 }
 
-nav {
+#header nav {
     float: right;
     padding-right: 2px;
     padding-left: 15px;
@@ -63,12 +55,12 @@ nav {
     padding-bottom: 100px; 
 }
 
-nav ul li {
+#header nav ul li {
     display: inline-block;
     padding-right: 18px; 
 }
 
-nav ul li a {
+#header nav ul li a {
     text-transform: uppercase;
     color: #77a466; 
     font-size: 14px;
@@ -76,6 +68,7 @@ nav ul li a {
     font-weight: bold; 
     text-decoration: none;
 }
+
 #hero-image {
     width: 1200px; 
     border-top: 4px solid #77a466;
@@ -99,17 +92,26 @@ nav ul li a {
     padding-bottom: 40px; 
 }
 
+#specials-reviews-contact {  
+    height: 220px; 
+    width: 1200px;  
+    margin-bottom: 30px; 
+}
+
 #todays-specials {
     font-family: 'montserrat', sans-serif;
     text-align: left; 
-    height: 190px;
+    border-top: 1px solid #dcdcdc; 
+    border-bottom: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    height: 220px; 
 }
 
 #todays-specials h3 {
-    padding-top: 20px; 
     text-transform: uppercase;
     font-size: 12px; 
     font-weight: bold;
+    padding-top: 20px;
 }
 
 #todays-specials p {
@@ -124,9 +126,10 @@ nav ul li a {
 #awesome-reviews {
     font-family: 'montserrat', sans-serif; 
     padding-left: 10px; 
-    border: 1px solid #dcdcdc;
-    height: 204px;
-    padding-top: 0; 
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    height: 220px; 
 }
 
 #awesome-reviews h3 {
@@ -147,7 +150,9 @@ nav ul li a {
 #contact-us {
     font-family: 'montserrat', sans-serif; 
     padding-left: 20px; 
-    height: 175px; 
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+    height: 220px; 
 }
 
 #contact-us h3 {
@@ -162,10 +167,8 @@ nav ul li a {
     line-height: 20px;
 }
 
-footer {
-    padding-top: 20px;
-    padding: 150px; 
-    text-align: center; 
+#powered {
+    width: 1200px; 
 }
 
 #powered h2 {
